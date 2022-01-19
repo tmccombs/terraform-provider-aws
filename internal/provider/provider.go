@@ -1205,6 +1205,10 @@ func Provider() *schema.Provider {
 			"aws_elasticsearch_domain_policy":       elasticsearch.ResourceDomainPolicy(),
 			"aws_elasticsearch_domain_saml_options": elasticsearch.ResourceDomainSAMLOptions(),
 
+			"aws_opensearch_domain":              opensearch.ResourceDomain(),
+			"aws_opensearch_domain_policy":       opensearch.ResourceDomainPolicy(),
+			"aws_opensearch_domain_saml_options": opensearch.ResourceDomainSAMLOptions(),
+
 			"aws_elastictranscoder_pipeline": elastictranscoder.ResourcePipeline(),
 			"aws_elastictranscoder_preset":   elastictranscoder.ResourcePreset(),
 
